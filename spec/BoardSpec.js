@@ -82,6 +82,7 @@ describe('Board', function() {
     });
 
     it('should find a col conflict', function() {
+      debugger;
       expect(board.hasAnyColConflicts()).to.be.equal(true);
     });
 
